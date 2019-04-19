@@ -56,7 +56,7 @@ class Veritrans
       "Basic #{key}"
     end
 
-    def get(url, params = {}, server_key = nil)
+    def get(url, server_key = nil, params = {})
       make_request(:get, url, params, server_key)
     end
 
